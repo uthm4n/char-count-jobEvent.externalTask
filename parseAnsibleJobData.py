@@ -2,8 +2,6 @@ import re
  
 with open('ansibleJobEvent.json') as ansible_json:
   ansible_job_event_data = ansible_json.read()
-  
-
 
 regex = r"(\"task\"):\"(.*?)\""
 
